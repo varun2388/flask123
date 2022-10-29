@@ -2,7 +2,6 @@ from flask import Flask,render_template,url_for,request
 import pandas as pd
 #import pickle
 from sklearn.linear_model import LinearRegression
-from sklearn.externals import joblib
 
 app=Flask(__name__)
 
